@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Card Valitation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <script src="https://kit.fontawesome.com/aaa937e259.js" crossorigin="anonymous"></script>
+
+<body>
+    <header>
+        <hgroup>
+            <div class="logo">
+                <img src="Imagenes/logo.png" alt="logotiendavirtial">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="">Sobre Nosotros</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </hgroup>
+    </header>
+    <main>
+        <div class="info1">
+            <h2 class="info1__h2">JUEGOS</h2>
+            <p class="info1__h2-p">3 resultados</p>
+        </div>
+        <div class="bloque1">
+            <img class=bloque1__img1 src="Imagenes/callgame.jpg" alt="">
+            <p>Juego Call Of Duty - Infinite Warfare - Ps4 - Nuevo</p><br>
+            <b class="bloque1__img1-b">$70.000</b> <br><br>
+            <p class="bloque1__img1-p">Envio gratis</p>
+            <br>
+            <button class="btn1" id="btn1">Buy Now</button>
+        </div>
+        <div class="bloque2">
+            <img class=bloque2__img2 src="Imagenes/crash.png" alt="">
+            <p>Crash Bandicoot Ps4. 3 Juegos. + 2 Misiones Español. Fisico</p><br>
+            <b class="bloque2__img2-b">$140.000</b> <br><br>
+            <p class="bloque2__img2-p">Envio gratis</p>
+            <br>
+            <button class="btn2" id="btn2">Buy Now</button>
+        </div>
+        <div class="bloque3">
+            <img class=bloque3__img3 src="Imagenes/fifagame.jpg" alt="">
+            <p>Fifa 20 Champions Xbox One</p><br>
+            <b class="bloque3__img3-b">$40.000</b> <br><br>
+            <p class="bloque3__img3-p">Envio gratis</p>
+            <br>
+            <button class="btn3" id="btn3">Buy Now</button>
+        </div>
+        <div class="overLay active" id="overLay">
+            <div class="popup" id="popup">
+                <a href="#" id="btnCerrarPopup" class="btnCerrarPopup"><i class="fas fa-times"></i></a>
+                <h3>INGRESA TUS DATOS</h3>
+                <br>
+                <form action="" name="formulario" method="">
+                    <div class="bloqueInputs">
+                        <input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Nombres" required>
+                        <input type="email" name="email" id="email" maxlength="30" placeholder="Correo" required>
+                    </div>
+                    <div class="radios">
+                        <input type="radio" name="sexo" id="hombre" value="Hombre" required> Hombre
+                        <input type="radio" name="sexo" id="mujer" value="Mujer" required> Mujer
+                    </div>
+
+                    <h3>DATOS DE TU TARJETA</h3>
+                    <div>
+                        <label for="tarjeta">Tipo de tarjeta</label>
+                        <select name="usercard" id="tarjeta">
+                            <option value="nada"></option>
+                            <option value="visa">Visa</option>
+                            <option value="mc">Master</option>
+                        </select>
+                        <label for="numTarjeta">Numero de Tarjeta</label>
+                        <input type="text" id="numTarjeta" maxlength="13" required>
+                        <label for="fecha">Fecha de vencimiento</label>
+                        <input type="date" id="fecha" required>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="terminos" id="terminos"> Terminos y Condiciones
+                    </div>
+                    <input type="submit" id="btn" name="btn" value="Validar Pago">
+                    <small class="mensajeLuhn"></small>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="pie1">Copyright © 2020 | Mayerly Bernal & Lina Ureña</p>
+    </footer>
+    <script src="validator.js" type="module"></script>
+</body>
+
+</html>
