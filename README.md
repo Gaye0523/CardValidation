@@ -15,10 +15,9 @@
   - [4. Look final del proyecto](#4-look-final-del-proyecto)
   - [5. Investigación UX](#5-investigación-ux)
     - [Sketch inicial](#sketch-inicial)
-    - [Feedback](#feedback)
     - [Imagen del prototipo final](#imagen-del-prototipo-final)
-  - [6. Planning del proyecto](#6-planning-del-proyecto)
-  - [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
+  - [5. Planning del proyecto](#5-planning-del-proyecto)
+  - [6. Objetivos de aprendizaje](#6-objetivos-de-aprendizaje)
     - [UX](#ux)
     - [HTML y CSS](#html-y-css)
     - [DOM](#dom)
@@ -93,19 +92,16 @@ Luego, forkeamos el proyecto base, lo desarrollamos localmente, desarrollamos la
 
 ![sketch 3](Imagenes/../src/Imagenes/Proto2.png)
 
-### Feedback
-
-
 ### Imagen del prototipo final
 
 ![PROTORIPO FINAL](src/Imagenes/pantallaPrincipal.png)
 
 
-## 6. Planning del proyecto
+## 5. Planning del proyecto
 
 Utilizamos [Trello] como herramienta de coordinación para el óptimo desarrollo del proyecto, para verlo da click [aquí](https://trello.com/b/15hGsGWG/validador).
 
-## 7. Objetivos de aprendizaje
+## 6. Objetivos de aprendizaje
 
 Trabajando en parejas aprenderán a construir una aplicación web que interactuará
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
