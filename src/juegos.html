@@ -60,8 +60,10 @@
                 <br>
                 <form action="" name="formulario" method="">
                     <div class="bloqueInputs">
-                        <input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Nombres" required>
-                        <input type="email" name="email" id="email" maxlength="30" placeholder="Correo" required>
+                        <input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Nombres"
+                            autocomplete="off" required>
+                        <input type="email" name="email" id="email" maxlength="30" placeholder="Correo"
+                            autocomplete="off" required>
                     </div>
                     <div class="radios">
                         <input type="radio" name="sexo" id="hombre" value="Hombre" required> Hombre
@@ -77,7 +79,7 @@
                             <option value="mc">Master</option>
                         </select>
                         <label for="numTarjeta">Numero de Tarjeta</label>
-                        <input type="text" id="numTarjeta" maxlength="13" required>
+                        <input type="text" id="numTarjeta" maxlength="13" autocomplete="off" required>
                         <label for="fecha">Fecha de vencimiento</label>
                         <input type="date" id="fecha" required>
                         <br>
