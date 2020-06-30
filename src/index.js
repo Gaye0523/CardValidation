@@ -1,3 +1,3 @@
-import validator from "./index.js";
+/*import validator from "./index.js";
 
-console.log(validator);
+console.log(validator);*/
