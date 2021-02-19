@@ -8,7 +8,7 @@ const btnAbrirPopup = document.getElementById("btn1"),
 btnAbrirPopup.addEventListener("click", function () {
   overLay.classList.add("active");
   popup.classList.add("active");
-});
+}); 
 
 btnAbrirPopup1.addEventListener("click", function () {
   overLay.classList.add("active");
@@ -83,7 +83,7 @@ function calcular(...numeros) {
     //a los 5 segundos ocultamos el mensaje de msj
     setTimeout(() => {
       $msj.style.visibility = "hidden";
-    }, 5000);
+    }, 8000);
   } else {
     mensajes = `Tarjeta Invalida`;
     $msj.innerHTML = `<p class="invalido">${mensajes} 😝 </p>`;
@@ -93,7 +93,7 @@ function calcular(...numeros) {
     //a los 5 segundos ocultamos el mensaje de msj
     setTimeout(() => {
       $msj.style.visibility = "hidden";
-    }, 5000);
+    }, 8000);
   }
 }
 
@@ -108,6 +108,15 @@ function maskNum() {
     const masked_str = mask_symbol.repeat(9) + lastDigit;
     alert("Su numero de tarjeta es:" + masked_str);
   });
-}
-capturarNumero();
+}capturarNumero();
 maskNum();
+
+
+/*let dato = suma(2,3)
+
+function suma(num1, num2){
+
+  const result = num1+num2;
+  return result
+}
+console.log(dato)*/

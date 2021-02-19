@@ -114,13 +114,13 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 * [x]  Diseñar la aplicación pensando y entendiendo al usuario
 * [x]  Crear prototipos para obtener feedback e iterar
-* [x]  Aplicar los principios de diseño visual
+* [ ]  Aplicar los principios de diseño visual
 
 ### HTML y CSS
 
-* [x]  Uso correcto de HTML semántico
+* [ ]  Uso correcto de HTML semántico
 * [x]  Uso de selectores de CSS
-* [x]  Construir tu aplicación respetando el diseño realizado (maquetación).
+* [ ]  Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
@@ -133,7 +133,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 * [x]  Manipulación de strings
 * [x]  Uso de condicionales
 * [x]  Uso de bucles
-* [x]  Uso de funciones
+* [ ]  Uso de funciones
 * [ ]  Datos atómicos y estructurados
 * [ ]  Utilizar ES Modules (`import` | `export`).
 
@@ -143,11 +143,12 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 ### Git y GitHub
 
-* [ ]  Comandos de git (`add` | `commit` | `pull` | `status` | `push`).
-* [x]  Manejo de repositorios de GitHub (`clone` | `fork` | `gh-pages`).
+* [x]  Comandos de git (`add` | `commit` | `pull` | `status` | `push`).
+* [x]  Manejo de repositorios de GitHub (`clone` | `fork` ).
+* [ ] Manejo de repositorios de GitHub  (`gh-pages`).
 
-### Buenas prácticas de desarrollo
+### Buenas prácticas de desarrollo,
 
-* [x]  Organizar y dividir el código en módulos (Modularización).
+* [ ]  Organizar y dividir el código en módulos (Modularización).
 * [x]  Uso de identificadores descriptivos (Nomenclatura | Semántica).
 * [ ]  Uso de linter para seguir buenas prácticas (ESLINT).
